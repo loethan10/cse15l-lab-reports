@@ -11,14 +11,14 @@
   
   <table>
   <tr>
-    <td>Pic 1</td>
-    <td>Pic 2</td>
-    <td>Pic 3</td>
+    <td style="length: 620 px">Pic 1</td>
+    <td style="length: 620 px">Pic 2</td>
+    <td style="length: 620 px">Pic 3</td>
   </tr>
   <tr>
-    <td>Pic 1 Explanation</td>
-    <td>Pic 2 Explanation</td>
-    <td>Pic 3 Explanation</td>
+    <td style="length: 620 px">Pic 1 Explanation</td>
+    <td style="length: 620 px">Pic 2 Explanation</td>
+    <td style="length: 620 px">Pic 3 Explanation</td>
   </tr>
 </table>
   
@@ -26,14 +26,14 @@
 
 <table>
   <tr>
-    <td>Pic 1</td>
-    <td>Pic 2</td>
-    <td>Pic 3</td>
+    <td style="length: 620 px">Pic 1</td>
+    <td style="length: 620 px">Pic 2</td>
+    <td style="length: 620 px">Pic 3</td>
   </tr>
   <tr>
-    <td>Pic 1 Explanation</td>
-    <td>Pic 2 Explanation</td>
-    <td>Pic 3 Explanation</td>
+    <td style="length: 620 px">Pic 1 Explanation</td>
+    <td style="length: 620 px">Pic 2 Explanation</td>
+    <td style="length: 620 px">Pic 3 Explanation</td>
   </tr>
 </table>
 
@@ -41,14 +41,14 @@
 
 <table>
   <tr>
-    <td>Pic 1</td>
-    <td>Pic 2</td>
-    <td>Pic 3</td>
+    <td style="length: 620 px">Pic 1</td>
+    <td style="length: 620 px">Pic 2</td>
+    <td style="length: 620 px">Pic 3</td>
   </tr>
   <tr>
-    <td>Pic 1 Explanation</td>
-    <td>Pic 2 Explanation</td>
-    <td>Pic 3 Explanation</td>
+    <td style="length: 620 px">Pic 1 Explanation</td>
+    <td style="length: 620 px">Pic 2 Explanation</td>
+    <td style="length: 620 px">Pic 3 Explanation</td>
   </tr>
 </table>
   
