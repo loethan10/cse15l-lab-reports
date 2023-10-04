@@ -1,4 +1,4 @@
-<h3> Lab Report 1 </h3>
+<h3 style="font:Tahoma;"> Lab Report 1 </h3>
 
-<p style="font:Tahoma;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lorem sit amet mi gravida vestibulum. Etiam arcu orci, consectetur at consequat sed, dictum vel quam. Phasellus non lobortis dui, nec venenatis est. Etiam efficitur suscipit eros, eget egestas est lobortis vel. Morbi finibus accumsan ligula eget pretium. Curabitur et tellus dolor. Suspendisse potenti. Praesent odio quam, faucibus eu dignissim ornare, aliquet in est. Nunc id porta purus. Curabitur sed nisi id mauris convallis eleifend. Pellentesque elementum tellus eget est suscipit, sed lacinia lacus cursus. Cras sed lectus vel turpis gravida consequat ut id nibh. Praesent mi enim, molestie vel posuere et, aliquam eu dui. Integer convallis ullamcorper metus, sit amet porta quam fringilla a. Pellentesque id ornare risus. Aliquam scelerisque risus ligula, laoreet blandit urna vestibulum et. </p>
-
+<h4 style="font:Tahoma;"> Terminal Commands </h4>
+<p style="font:Tahoma;"> For week 1's lab, we learned how to use Edstem, a workspace, which has a terminal that we can use to run commands. Three of these such commands are <i>cd</i>, <i>ls</i>, and <i>cat</i>.</p>
