@@ -1,5 +1,8 @@
-<h3 style="font:Tahoma;"> Lab Report 1 </h3>
+<div style="background-color:#FFEBCD">
+  
+<h3 style="font:Arial Black;"> Lab Report 1 </h3>
 <p style="font:Tahoma;"> October 3, 2023</p>
+
 <h4 style="font:Tahoma;"> Terminal Commands </h4>
 <p style="font:Tahoma;"> For week 1's lab, we learned how to use Edstem, a workspace, which has a terminal that we can use to run commands. Three of these such commands are <i>cd</i>, <i>ls</i>, and <i>cat</i>.</p>
 <ul style="font:Tahoma;">
@@ -7,3 +10,5 @@
   <li><b>ls</b></li>
   <li><b>cat</b></li>
 </ul>
+
+</div>
