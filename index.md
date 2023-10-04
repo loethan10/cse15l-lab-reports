@@ -11,14 +11,14 @@
   
   <table>
   <tr>
-    <td style="length: 620 px">Pic 1</td>
-    <td style="length: 620 px">Pic 2</td>
-    <td style="length: 620 px">Pic 3</td>
+    <td> <div style="length: 620 px">Pic 1</div></td>
+    <td> <div style="length: 620 px">Pic 2</div></td>
+    <td> <div style="length: 620 px">Pic 3</div></td>
   </tr>
   <tr>
-    <td style="length: 620 px">Pic 1 Explanation</td>
-    <td style="length: 620 px">Pic 2 Explanation</td>
-    <td style="length: 620 px">Pic 3 Explanation</td>
+    <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
+    <td> <div style="length: 620 px">Pic 2 Explanation</div></td>
+    <td> <div style="length: 620 px">Pic 3 Explanation</div></td>
   </tr>
 </table>
   
@@ -26,14 +26,14 @@
 
 <table>
   <tr>
-    <td style="length: 620 px">Pic 1</td>
-    <td style="length: 620 px">Pic 2</td>
-    <td style="length: 620 px">Pic 3</td>
+    <td> <div style="length: 620 px">Pic 1</div></td>
+    <td> <div style="length: 620 px">Pic 2</div></td>
+    <td> <div style="length: 620 px">Pic 3</div></td>
   </tr>
   <tr>
-    <td style="length: 620 px">Pic 1 Explanation</td>
-    <td style="length: 620 px">Pic 2 Explanation</td>
-    <td style="length: 620 px">Pic 3 Explanation</td>
+    <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
+    <td> <div style="length: 620 px">Pic 2 Explanation</div></td>
+    <td> <div style="length: 620 px">Pic 3 Explanation</div></td>
   </tr>
 </table>
 
@@ -41,14 +41,14 @@
 
 <table>
   <tr>
-    <td style="length: 620 px">Pic 1</td>
-    <td style="length: 620 px">Pic 2</td>
-    <td style="length: 620 px">Pic 3</td>
+    <td> <div style="length: 620 px">Pic 1</div></td>
+    <td> <div style="length: 620 px">Pic 2</div></td>
+    <td> <div style="length: 620 px">Pic 3</div></td>
   </tr>
   <tr>
-    <td style="length: 620 px">Pic 1 Explanation</td>
-    <td style="length: 620 px">Pic 2 Explanation</td>
-    <td style="length: 620 px">Pic 3 Explanation</td>
+    <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
+    <td> <div style="length: 620 px">Pic 2 Explanation</div></td>
+    <td> <div style="length: 620 px">Pic 3 Explanation</div></td>
   </tr>
 </table>
   
