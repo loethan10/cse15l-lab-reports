@@ -5,10 +5,53 @@
 
 <h4 style="font:Tahoma;"> Terminal Commands </h4>
 <p style="font:Tahoma;"> For week 1's lab, we learned how to use Edstem, a workspace, which has a terminal that we can use to run commands. Three of these such commands are <i>cd</i>, <i>ls</i>, and <i>cat</i>.</p>
+
 <ul style="font:Tahoma;">
   <li><b>cd</b></li>
+  
+  <table>
+  <tr>
+    <td>Pic 1</td>
+    <td>Pic 2</td>
+    <td>Pic 3</td>
+  </tr>
+  <tr>
+    <td>Pic 1 Explanation</td>
+    <td>Pic 2 Explanation</td>
+    <td>Pic 3 Explanation</td>
+  </tr>
+</table>
+  
   <li><b>ls</b></li>
+
+<table>
+  <tr>
+    <td>Pic 1</td>
+    <td>Pic 2</td>
+    <td>Pic 3</td>
+  </tr>
+  <tr>
+    <td>Pic 1 Explanation</td>
+    <td>Pic 2 Explanation</td>
+    <td>Pic 3 Explanation</td>
+  </tr>
+</table>
+
   <li><b>cat</b></li>
+
+<table>
+  <tr>
+    <td>Pic 1</td>
+    <td>Pic 2</td>
+    <td>Pic 3</td>
+  </tr>
+  <tr>
+    <td>Pic 1 Explanation</td>
+    <td>Pic 2 Explanation</td>
+    <td>Pic 3 Explanation</td>
+  </tr>
+</table>
+  
 </ul>
 
 </div>
