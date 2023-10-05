@@ -16,9 +16,9 @@
     <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.40.01 PM.png"></div></td>
   </tr>
   <tr>
-    <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
-    <td> <div style="length: 620 px">Pic 2 Explanation</div></td>
-    <td> <div style="length: 620 px">Pic 3 Explanation</div></td>
+    <td> <div style="size: 20 px">This is an example of using the command cd with no arguments. The working directory was /home. Since there was no argument, cd did nothing, as the command is supposed to change the directory to whatever the argument is. The lack of output is intentional.</div></td>
+    <td> <div style="size: 20 px">This is an example of using the command cd on a path to a directory as an argument. In this example, cd changed the working directory from /home to /home/lecture1. The lack of output is intentional, and there is no error, as the directory sucessfully changed. </div></td>
+    <td> <div style="size: 20 px">This is an example of using the command cd on a path to a file as an argument. However, since cd needs a directory as an argument (to change the directory into whatever was entered), the command produced an error; both inputs in the example above are files, not directories. </div></td>
   </tr>
 </table>
   
@@ -31,9 +31,9 @@
     <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.41.38 PM.png"></div></td>
   </tr>
   <tr>
-    <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
-    <td> <div style="length: 620 px">Pic 2 Explanation</div></td>
-    <td> <div style="length: 620 px">Pic 3 Explanation</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command ls with no arguments.</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command ls on a path to a directory as an argument.</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command ls on a path to a file as an argument.</div></td>
   </tr>
 </table>
 
@@ -46,9 +46,9 @@
     <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.44.24 PM.png"></div></td>
   </tr>
   <tr>
-    <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
-    <td> <div style="length: 620 px">Pic 2 Explanation</div></td>
-    <td> <div style="length: 620 px">Pic 3 Explanation</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command cat with no arguments.</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command cat on a path to a directory as an argument.</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command cat on a path to a file as an argument.</div></td>
   </tr>
 </table>
   
