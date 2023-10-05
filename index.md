@@ -1,3 +1,4 @@
+![Image](Screen Shot 2023-10-04 at 4.35.35 PM.png)
 <div style="background-color:#FFEBCD">
   
 <h3 style="font:Arial Black;"> Lab Report 1 </h3>
@@ -11,7 +12,7 @@
   
   <table>
   <tr>
-    <td> <div style="length: 620 px">![Image](Screen Shot 2023-10-04 at 4.35.35 PM.png)</div></td>
+    <td> <div style="length: 620 px"></div></td>
     <td> <div style="length: 620 px">Pic 2</div></td>
     <td> <div style="length: 620 px">Pic 3</div></td>
   </tr>
