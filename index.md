@@ -1,4 +1,3 @@
-![Image](Screen Shot 2023-10-04 at 4.35.35 PM.png)
 <div style="background-color:#FFEBCD">
   
 <h3 style="font:Arial Black;"> Lab Report 1 </h3>
@@ -12,9 +11,9 @@
   
   <table>
   <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.35.35 PM.png"></img></div></td>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></img></div></td>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.40.01 PM.png"></img</div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.35.35 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.40.01 PM.png"></div></td>
   </tr>
   <tr>
     <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
@@ -27,9 +26,9 @@
 
 <table>
   <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.40.40 PM.png"></img></div></td>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.41.11 PM.png"></img></div></td>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.41.38 PM.png"></img></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.40.40 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.41.11 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.41.38 PM.png"></div></td>
   </tr>
   <tr>
     <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
@@ -42,9 +41,9 @@
 
 <table>
   <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.43.06 PM.png"></img></div></td>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.43.42 PM.png"></img></div></td>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.44.24 PM.png"></img></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.43.06 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.43.42 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.44.24 PM.png"></div></td>
   </tr>
   <tr>
     <td> <div style="length: 620 px">Pic 1 Explanation</div></td>
