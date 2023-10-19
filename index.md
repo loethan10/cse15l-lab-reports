@@ -1,3 +1,61 @@
+<div style="background-color:#87CEFA">
+  
+<h3 style="font:Arial Black;"> Lab Report 2 </h3>
+<p style="font:Tahoma;"> October 19, 2023</p>
+
+<ul style="font:Tahoma;">
+  <li><b>cd</b></li>
+  
+  <table>
+  <tr>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.35.35 PM.png"></div></td>
+    <td> <div style="length: 620 px">TBA</div></td>
+  </tr>
+  <tr>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
+    <td> <div style="length: 620 px">TBA</div></td>
+  </tr>
+</table>
+  
+  <li><b>ls</b></li>
+
+<table>
+  <tr>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
+    <td> <div style="length: 620 px">TBA</div></td>
+  </tr>
+  <tr>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
+    <td> <div style="length: 620 px">TBA</div></td>
+  </tr>
+</table>
+
+  <li><b>cat</b></li>
+
+<table>
+  <tr>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
+    <td> <div style="length: 620 px">TBA</div></td>
+  </tr>
+  <tr>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
+    <td> <div style="length: 620 px">TBA</div></td>
+  </tr>
+</table>
+  
+</ul>
+<img src="Screen Shot 2023-10-04 at 4.37.49 PM.png">
+<p style="font-size: 12 px; color: gray">Code for <i>StringServer</i>i></p>
+
+</div>
+
+
+
+
+
+
+
+
 <div style="background-color:#FFEBCD">
   
 <h3 style="font:Arial Black;"> Lab Report 1 </h3>
