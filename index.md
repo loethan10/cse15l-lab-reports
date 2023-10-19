@@ -3,49 +3,19 @@
 <h3 style="font:Arial Black;"> Lab Report 2 </h3>
 <p style="font:Tahoma;"> October 19, 2023</p>
 
-<ul style="font:Tahoma;">
-  <li><b>cd</b></li>
-  
   <table>
   <tr>
     <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.35.35 PM.png"></div></td>
-    <td> <div style="length: 620 px">TBA</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command cd with no arguments. The working directory was /home. Since there was no argument, cd did nothing, as the command is supposed to change the directory to whatever the argument is. The lack of output is intentional.</div></td>
   </tr>
   <tr>
     <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
-    <td> <div style="length: 620 px">TBA</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command cd with no arguments. The working directory was /home. Since there was no argument, cd did nothing, as the command is supposed to change the directory to whatever the argument is. The lack of output is intentional.</div></td>
   </tr>
 </table>
   
-  <li><b>ls</b></li>
-
-<table>
-  <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
-    <td> <div style="length: 620 px">TBA</div></td>
-  </tr>
-  <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
-    <td> <div style="length: 620 px">TBA</div></td>
-  </tr>
-</table>
-
-  <li><b>cat</b></li>
-
-<table>
-  <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
-    <td> <div style="length: 620 px">TBA</div></td>
-  </tr>
-  <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.37.49 PM.png"></div></td>
-    <td> <div style="length: 620 px">TBA</div></td>
-  </tr>
-</table>
-  
-</ul>
 <img src="Screen Shot 2023-10-04 at 4.37.49 PM.png">
-<p style="font-size: 12 px; color: gray">Code for <i>StringServer</i>i></p>
+<p style="font-size: 12 px; color: gray">Code for <i>StringServer</i></p>
 
 </div>
 
