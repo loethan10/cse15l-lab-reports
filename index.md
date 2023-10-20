@@ -2,20 +2,23 @@
   
 <h3 style="font:Arial Black;"> Lab Report 2 </h3>
 <p style="font:Tahoma;"> October 19, 2023</p>
-
-  <table>
+    <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png">
+    <p> The image shown is a screenshot of the server being run. It has taken several strings as an argument ("Hello," "Never," "Gonna," "Give," etc) and concatenated them to a long String, which is implemented to look visually similar to a list. The server utilizes a Java class called StringServer, where it is calling a method handleRequest, which takes a URL as an argument, then parses the URL into several Strings to decode it. The method searches for the String "add-message" after the "/" character, which then looks for a "?=" combination of characters. From there, the rest of the URL is a String that the method uses as an argument to pass to a variable that keeps a running list of all previous Strings passed to the method. When updating the list, a String variable (that holds the list) and an int variable (that keeps track of how many Strings have been passed) are updated </p>
+    <img src="Screen Shot 2023-10-20 at 4.19.50 PM.png">
+    <p>Similar to the image shown above, the screenshot shown is one of the server. In this case, however, the server sends out an error statement, since it did not find any valid inputs to either update the running list or to simply show it. The handleRequest method is still called, but since no valid arguments were passed, it returns the statement "404 Not Found!" Furthermore, as a result, no variables were changed.</p>
+<table style="border: #87CEFA;">
   <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></div></td>
-    <td> <div style="length: 620 px">The image shown is a screenshot of the server being run. It has taken several strings as an argument ("Hello," "Never," "Gonna," "Give," etc) and concatenated them to a long String, which is implemented to look visually similar to a list. The server utilizes a Java class called StringServer, where it is calling a method handleRequest, which takes a URL as an argument, then parses the URL into several Strings to decode it. The method searches for the String "add-message" after the "/" character, which then looks for a "?=" combination of characters. From there, the rest of the URL is a String that the method uses as an argument to pass to a variable that keeps a running list of all previous Strings passed to the method. When updating the list, a String variable (that holds the list) and an int variable (that keeps track of how many Strings have been passed) are updated </div></td>
-  </tr>
-  <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-20 at 4.19.50 PM.png"></div></td>
-    <td> <div style="length: 620 px">Similar to the image shown above, the screenshot shown is one of the server. In this case, however, the server sends out an error statement, since it did not find any valid inputs to either update the running list or to simply show it. The handleRequest method is still called, but since no valid arguments were passed, it returns the statement "404 Not Found!" Furthermore, as a result, no variables were changed.</div></td>
-  </tr>
-</table>
-  
-<img src="Screen Shot 2023-10-20 at 4.13.39 PM.png">
+    <td>
+<img src="Screen Shot 2023-10-20 at 4.13.39 PM.png" width="500" height="500">
+      </td>
+    <td>
 <p style="font-size: 12 px; color: gray">Code for <i>StringServer</i></p>
+      </td>
+</tr>
+
+</table>
+
+
 
 </div>
 
