@@ -17,7 +17,7 @@
   <li><h4 style="font:Tahoma;"> Part 2 </h4></li>
   <table>
   <tr>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png" height="400" width="375"></img> </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"></img> </td>
     <td> <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></td>
     <td> <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></td>
     <td> <img src="Screen Shot 2023-10-20 at 4.19.50 PM.png"></td>
