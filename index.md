@@ -17,20 +17,20 @@
   <li><h4 style="font:Tahoma;"> Part 2 </h4></li>
   <table>
   <tr>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"></img> </td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.19.50 PM.png"></td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.49.02 PM.png"></td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.53.19 PM.png"></td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.50.37 PM.png"></td>
   </tr>
   <tr>
     <td> <p style="font-size: 12 px; color: gray">Code for <i>StringServer</i></p></td>
-    <td> <p> TBA </p></td>
-    <td> <p> TBA </p></td>
-    <td> <p> TBA </p></td>
+    <td> <p> The path to the private key for my SSH key on my computer </p></td>
+    <td> <p> The path to the public key for my SSH key on the ieng6 computer/server </p></td>
+    <td> <p> Logging into ieng6 without the need for my password </p></td>
   </tr>
 </table>
   <li><h4 style="font:Tahoma;"> Part 3 </h4></li>
-  <p style="font:Tahoma;"></p>
+  <p style="font:Tahoma;"> I learned many things this week, but the thing that stood out to me most were all the little shortcuts you could use to navigate and/or type commands much faster on the terminal. For example, I learned that control + C (or command, depending on keybinds) stops a server, allowing you to continue typing onto the terminal; this was something I critically needed, as I kept accidentally "softlocking" myself out of the terminal, as I didn't know how to stop a command. Also, I learned that using the up/down arrow keys allows me to re-run commands from before, saving me the hassle of having to retype a command, with a potential typo. Finally, I learned that control + A allows me to go back to the beginning of a line.</p>
 </ul>
 
 
