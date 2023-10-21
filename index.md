@@ -2,8 +2,8 @@
   
 <h3 style="font:Arial Black;"> Lab Report 2 </h3>
 <p style="font:Tahoma;"> October 19, 2023</p>
-<ul>
-  <li><h4 style="font:Tahoma;"> Part 1 </h4></li>
+
+<h4 style="font:Tahoma;"> Part 1 </h4>
   <table>
   <tr>
     <td> <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></td>
@@ -14,7 +14,7 @@
     <td> <p>Similar to the other image, this screenshot shown is one of the server. In this case, however, the server sends out an error statement, since it did not find any valid inputs to either update the running list or to simply show it. The handleRequest method is still called, but since no valid arguments were passed, it returns the statement "404 Not Found!" Furthermore, as a result, no variables were changed.</p></td>
   </tr>
 </table>
-  <li><h4 style="font:Tahoma;"> Part 2 </h4></li>
+<h4 style="font:Tahoma;"> Part 2 </h4>
   <table>
   <tr>
     <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
@@ -29,9 +29,9 @@
     <td> <p> Logging into ieng6 without the need for my password </p></td>
   </tr>
 </table>
-  <li><h4 style="font:Tahoma;"> Part 3 </h4></li>
+<h4 style="font:Tahoma;"> Part 3 </h4>
   <p style="font:Tahoma;"> I learned many things this week, but the thing that stood out to me most were all the little shortcuts you could use to navigate and/or type commands much faster on the terminal. For example, I learned that control + C (or command, depending on keybinds) stops a server, allowing you to continue typing onto the terminal; this was something I critically needed, as I kept accidentally "softlocking" myself out of the terminal, as I didn't know how to stop a command. Also, I learned that using the up/down arrow keys allows me to re-run commands from before, saving me the hassle of having to retype a command, with a potential typo. Finally, I learned that control + A allows me to go back to the beginning of a line.</p>
-</ul>
+
 
 
 </div>
