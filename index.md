@@ -90,9 +90,9 @@
 
 <table>
   <tr>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.43.06 PM.png"></div></td>
-    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.43.42 PM.png"></div></td>
     <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-22 at 4.12.12 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.43.42 PM.png"></div></td>
+    <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.44.24 PM.png"></div></td>
   </tr>
   <tr>
     <td> <div style="length: 620 px">This is an example of using the command <code>cat</code> with no arguments. The current directory is simply <code>/home</code>. The command produced no error; this specific terminal stopped accepting further command inputs, and instead printed whatever text the user typed into the terminal. This is not an error, as cat reads data as input, then prints data as output. </div></td>
