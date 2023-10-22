@@ -65,7 +65,7 @@
     <td> <div style="length: 620 px"><img src="Screen Shot 2023-10-04 at 4.40.01 PM.png"></div></td>
   </tr>
   <tr>
-    <td> <div style="length: 620 px">This is an example of using the command <code>cd</code> with no arguments. The working directory was <code>/home/lecture1/messages</code>. Since there was no argument, <code>cd</code> changed the working directory back to <code>home</code>. The lack of output is intentional, and there is no error, as the directory was changed.</div></td>
+    <td> <div style="length: 620 px">This is an example of using the command <code>cd</code> with no arguments. The working directory was <code>/home/lecture1/messages</code>. Since there was no argument, <code>cd</code> changed the working directory back to <code>/home</code>. The lack of output is intentional, and there is no error, as the directory was changed.</div></td>
     <td> <div style="length: 620 px">This is an example of using the command cd on a path to a directory as an argument. In this example, cd changed the working directory from <code>/home</code> to <code>/home/lecture1</code>. The lack of output is intentional, and there is no error, as the directory sucessfully changed. </div></td>
     <td> <div style="length: 620 px">This is an example of using the command <code>cd</code> on a path to a file as an argument. The current working directory is <code>/home/lecture1</code>. However, since <code>cd</code> needs a directory as an argument (to change the directory into whatever was entered), the command produced an error; both inputs in the example above are files, not directories. </div></td>
   </tr>
