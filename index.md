@@ -1,4 +1,4 @@
-<div style="background-color:#87CEFA" width = "1300">
+<!--- <div style="background-color:#87CEFA" width = "1300">
   
 <h3 style="font:Arial Black;"> Lab Report 2 </h3>
 <p style="font:Tahoma;"> October 19, 2023</p>
@@ -45,7 +45,7 @@
 
 
 
-
+--->
 
 <div style="background-color:#FFEBCD">
   
