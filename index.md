@@ -1,4 +1,30 @@
-<!--- <div style="background-color:#87CEFA" width = "1300">
+ <div style="background-color:#556B2F" width = "1300">
+  
+<h3 style="font:Arial Black;"> Lab Report 3 </h3>
+<p style="font:Tahoma;"> November 2, 2023</p>
+
+<h4 style="font:Tahoma;"> Part 1 </h4>
+<p style="font-size: 12 px; color: gray">Fixing the bugs within the code for a list implementation: </p>
+<code>Code here</code>
+<h4 style="font:Tahoma;"> Part 2 </h4>
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+ <div style="background-color:#87CEFA" width = "1300">
   
 <h3 style="font:Arial Black;"> Lab Report 2 </h3>
 <p style="font:Tahoma;"> October 19, 2023</p>
@@ -45,7 +71,7 @@
 
 
 
---->
+
 
 <div style="background-color:#FFEBCD">
   
