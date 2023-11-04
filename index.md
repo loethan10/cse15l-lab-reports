@@ -64,10 +64,95 @@ public void testReverseInPlacePoorly() {
 <h4 style="font:Tahoma;"> Part 2 </h4>
 <p>For this part, we will be focusing on the terminal command <code>less</code>. Note that for the following four command-line options, I found them through the URL: "<a href="https://phoenixnap.com/kb/less-command-in-linux">https://phoenixnap.com/kb/less-command-in-linux</a>."</p>
 <ol>
-  <li>-o[file_name]</li>
-  <li>-p[pattern]</li>
-  <li>-z[number]</li>
-  <li>-N</li>
+  <li><code>-o[file_name]</code>: this command-line copies the output into a specified file</li>
+ <table align="center" style="margin: 0 px auto;">
+  <tr>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less ./technical/911report/chapter-1.txt | less -o input.txt</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>Warning: "input.txt" exists; Overwrite, Append or Don't log? 
+Overwrite, Append, or Don't log? (Type "O", "A", "D" or "q")</code></pre></p>
+    </td>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less ./technical/911report/ | less -o input.txt</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>./technical/911report/ is a directory
+Warning: "./technical/911report/" exists; Overwrite, Append or Don't log? 
+Cannot write to "./technical/911report/"</code></pre></p>
+    </td>
+  </tr>
+  <tr>
+    <td> <p>Here, before <code>|</code>, we call a command. Then, we input that command's output into a file called <code>input.txt</code>. After letting the command run and allowing the terminal to overwrite <code>input.txt</code>'s initial data, <code>less</code> proceeds to print the output both on the terminal space and in the txt file.</p></td>
+    <td> <p>Here, the command before <code>|</code> executes, as normal, again. However, because <code>-o</code> is now taking a directory as the target to overwrite, the terminal fails to do anything. It outputs an error message, since it requires a file as an argument, not a directory.</p></td>
+  </tr>
+    </table>
+     
+  <li><code>-p[pattern]</code>: this command-line causes <code>less</code> to start searching at the first instance specified pattern</li>
+  <table align="center" style="margin: 0 px auto;">
+  <tr>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less -p help ./technical/911report/chapter-1.txt</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f">
+<code>...help the FAA centers coordinate directly with the military. NORAD would receive tracking
+information for the hijacked aircraft either from joint use radar or from the relevant FAA air
+traffic control facility. Every attempt would be made to have the hijacked aircraft squawk 7500 to
+help NORAD track it...</code></pre></p>
+    </td>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less -p help ./technical/biomed/</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>../technical/biomed/ is a directory</code></pre></p>
+    </td>
+  </tr>
+  <tr>
+    <td> <p><code>less</code> does what it normally does, which is printing out the contents of the given file to the terminal. However, given the specified command <code>-p</code>, with the string <code>help</code>, the command searches for the first instance of the pattern, then jumps to that part of the file (making it the first thing the user sees).</p></td>
+    <td> <p>Because <code>less -p</code> requires a file as an input, the terminal sends out an error message when passed a directory, instead of a file.</p></td>
+  </tr>
+    </table>
+     
+  <li><code>-z[number]</code>: this command-line simply reformats the output window to show a specified number of lines</li>
+  <table align="center" style="margin: 0 px auto;">
+  <tr>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less -z 10 ./technical/911report/chapter-1.txt</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>
+        
+                
+"WE HAVE SOME PLANES"
+
+   Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.</code>
+   </pre></p>
+    </td>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less -z 1 ./technical/biomed/</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>./technical/biomed/ is a directory</code></pre></p>
+    </td>
+  </tr>
+  <tr>
+    <td> <p><code>less</code> does what it normally does, which is printing out the contents of the given file to the terminal. However, given the specified command <code>-z</code>, with the number value <code>10</code>, the command prints out 10 lines at a time.</p></td>
+    <td> <p>Because <code>less -z</code> requires a file as an input, the terminal sends out an error message when passed a directory, instead of a file.</p></td>
+  </tr>
+    </table>
+     
+  <li><code>-N</code>: this command-line simply shows the line numbers at the side of the screen</li>
+  <table align="center" style="margin: 0 px auto;">
+  <tr>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less -N ./technical/911report/chapter-1.txt</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>1 
+      2         
+      3                 
+      4 "WE HAVE SOME PLANES"
+      5 
+      6     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States.</code></pre></p>
+    </td>
+    <td>
+     <p>Command:<pre style = "background-color: #96948f"><code>less -N ./technical/biomed/</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>./technical/biomed/ is a directory</code></pre></p>
+    </td>
+  </tr>
+  <tr>
+    <td><p><code>less</code> does what it normally does, which is printing out the contents of the given file to the terminal. However, given the specified command <code>-N</code>, the command also prints out the lines number to the left of the screen.</p></td>
+    <td> <p>Because <code>less -N</code> requires a file as an input, the terminal sends out an error message when passed a directory, instead of a file.</td>
+  </tr>
+    </table>
 </ol>
 </div>
  
