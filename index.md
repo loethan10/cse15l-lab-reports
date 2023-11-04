@@ -30,9 +30,12 @@ public void testReverseInPlacePoorly() {
    ArrayExamples.reverseInPlace(input1);
    assertArrayEquals(new int[]{3}, input1);
 }</code></pre>
+<ul style="font:Tahoma;">
+   <li>Test results:</li>
+   <img src="Screen Shot 2023-11-03 at 11.19.01 PM.png">
+</ul>
     <table>
   <tr>
-   <td><img src="Screen Shot 2023-11-03 at 11.19.01 PM.png"></td>
     <td>
      <pre style = "background-color: #96948f"><code>static void reverseInPlace(int[] arr) {
   for(int i = 0; i < arr.length; i += 1) {
@@ -52,7 +55,6 @@ public void testReverseInPlacePoorly() {
     </td>
   </tr>
   <tr>
-   <td>Test Results</td>
     <td> <p>Code before</p></td>
     <td> <p>Code after</p></td>
   </tr>
