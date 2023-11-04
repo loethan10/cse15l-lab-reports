@@ -68,14 +68,18 @@ public void testReverseInPlacePoorly() {
  <table align="center" style="margin: 0 px auto;">
   <tr>
     <td>
-     <p>Command:<pre style = "background-color: #96948f"><code>less ./technical/911report/chapter-1.txt | less -o input.txt</code></pre></p>
-    <p>Output:<pre style = "background-color: #96948f"><code>Warning: "input.txt" exists; Overwrite, Append or Don't log? 
+     <p>Command:<pre style = "background-color: #96948f"><code>less ./technical/911report/chapter-1.txt 
+      | less -o input.txt</code></pre></p>
+    <p>Output:<pre style = "background-color: #96948f"><code>Warning: "input.txt" exists; 
+     Overwrite, Append or Don't log? 
 Overwrite, Append, or Don't log? (Type "O", "A", "D" or "q")</code></pre></p>
     </td>
     <td>
-     <p>Command:<pre style = "background-color: #96948f"><code>less ./technical/911report/ | less -o input.txt</code></pre></p>
+     <p>Command:<pre style = "background-color: #96948f"><code>less ./technical/911report/ 
+      | less -o input.txt</code></pre></p>
     <p>Output:<pre style = "background-color: #96948f"><code>./technical/911report/ is a directory
-Warning: "./technical/911report/" exists; Overwrite, Append or Don't log? 
+Warning: "./technical/911report/" exists; 
+     Overwrite, Append or Don't log? 
 Cannot write to "./technical/911report/"</code></pre></p>
     </td>
   </tr>
@@ -91,9 +95,12 @@ Cannot write to "./technical/911report/"</code></pre></p>
     <td>
      <p>Command:<pre style = "background-color: #96948f"><code>less -p help ./technical/911report/chapter-1.txt</code></pre></p>
     <p>Output:<pre style = "background-color: #96948f">
-<code>...help the FAA centers coordinate directly with the military. NORAD would receive tracking
-information for the hijacked aircraft either from joint use radar or from the relevant FAA air
-traffic control facility. Every attempt would be made to have the hijacked aircraft squawk 7500 to
+<code>...help the FAA centers coordinate directly with the 
+ military. NORAD would receive tracking
+information for the hijacked aircraft either from 
+ joint use radar or from the relevant FAA air
+traffic control facility. Every attempt would be 
+ made to have the hijacked aircraft squawk 7500 to
 help NORAD track it...</code></pre></p>
     </td>
     <td>
@@ -117,7 +124,18 @@ help NORAD track it...</code></pre></p>
                 
 "WE HAVE SOME PLANES"
 
-   Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.</code>
+   Tuesday, September 11, 2001, dawned temperate and nearly 
+   cloudless in the eastern United States. 
+   Millions of men and women readied themselves for work. 
+   Some made their way to the Twin Towers, the 
+   signature structures of the World Trade Center 
+   complex in New York City. Others went to Arlington, 
+   Virginia, to the Pentagon. Across the Potomac River, 
+   the United States Congress was back in session. At 
+   the other end of Pennsylvania Avenue, people began to 
+   line up for a White House tour. In Sarasota, 
+   Florida, President George W. Bush went for an 
+   early morning run.</code>
    </pre></p>
     </td>
     <td>
@@ -141,7 +159,8 @@ help NORAD track it...</code></pre></p>
       3                 
       4 "WE HAVE SOME PLANES"
       5 
-      6     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States.</code></pre></p>
+      6     Tuesday, September 11, 2001, dawned temperate and 
+     nearly cloudless in the eastern United States.</code></pre></p>
     </td>
     <td>
      <p>Command:<pre style = "background-color: #96948f"><code>less -N ./technical/biomed/</code></pre></p>
