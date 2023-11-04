@@ -59,6 +59,8 @@ public void testReverseInPlacePoorly() {
     <td> <p>Code after</p></td>
   </tr>
     </table>
+<p>The initial code for <code>reverseInPlace</code> overwrote the first half of the array without storing its information, causing the inital values in the first half of the array to disappear. This resulted in a palindromic array. The code for the method actually stores the information into a temporary array, and then changes the values, accordingly, so that the initial values are not immediately overwritten.</p>
+     
 <h4 style="font:Tahoma;"> Part 2 </h4>
 </div>
  
