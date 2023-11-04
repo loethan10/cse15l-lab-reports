@@ -150,7 +150,7 @@ help NORAD track it...</code></pre></p>
   </tr>
   <tr>
     <td><p><code>less</code> does what it normally does, which is printing out the contents of the given file to the terminal. However, given the specified command <code>-N</code>, the command also prints out the lines number to the left of the screen.</p></td>
-    <td> <p>Because <code>less -N</code> requires a file as an input, the terminal sends out an error message when passed a directory, instead of a file.</td>
+    <td> <p>Because <code>less -N</code> requires a file as an input, the terminal sends out an error message when passed a directory, instead of a file.</p></td>
   </tr>
     </table>
 </ol>
