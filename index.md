@@ -30,12 +30,27 @@ public void testReverseInPlacePoorly() {
 }</code></pre>
    </li>
    <li>Test results:
-   <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></li>
+   <img src="Screen Shot 2023-11-03 at 11.19.01 PM.png"></li>
    <li>
     <table>
   <tr>
-    <td><code></code> </td>
-    <td><code></code></td>
+    <td>
+     <pre><code>static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}</code></pre></td>
+    <td>
+     <pre><code>static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[i];
+    }
+  }</code></pre>
+    </td>
   </tr>
   <tr>
     <td> <p>Code before</p></td>
