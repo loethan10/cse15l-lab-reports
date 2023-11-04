@@ -34,7 +34,7 @@ public void testReverseInPlacePoorly() {
    <li>Test results:</li>
 </ul>
    <img src="Screen Shot 2023-11-03 at 11.19.01 PM.png">
-    <table>
+    <table align="center" style="margin: 0 px auto;">
   <tr>
     <td>
      <pre style = "background-color: #96948f"><code>static void reverseInPlace(int[] arr) {
