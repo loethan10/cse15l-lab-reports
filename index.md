@@ -5,7 +5,45 @@
 
 <h4 style="font:Tahoma;"> Part 1 </h4>
 <p style="font-size: 12 px">Fixing the bugs within the code for a list implementation: </p>
-<code>Code here</code>
+<p style="font-size: 12 px">For this portion, we will be looking at the list's method <code>reverseInPlace </code></p>
+<pre><code>static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+} </code></pre>
+   
+<ul style="font:Tahoma;">
+   <li>Failure-inducing input for the buggy program:
+   <pre><code>@Test 
+public void testReverseInPlaceAccurately() {
+   int[] input1 = {3, 4, 5, 6, 7};
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{7, 6, 5, 4, 3}, input1);
+}</code></pre>
+   </li>
+   <li>Input that doesn’t induce a failure:
+   <pre><code>@Test 
+public void testReverseInPlacePoorly() {
+   int[] input1 = {3};
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{3}, input1);
+}</code></pre>
+   </li>
+   <li>Test results:
+   <img src="Screen Shot 2023-10-20 at 4.16.17 PM.png"></li>
+   <li>
+    <table>
+  <tr>
+    <td><code></code> </td>
+    <td><code></code></td>
+  </tr>
+  <tr>
+    <td> <p>Code before</p></td>
+    <td> <p>Code after</p></td>
+  </tr>
+    </table>
+   </li>
+</ul>
 <h4 style="font:Tahoma;"> Part 2 </h4>
 </div>
  
