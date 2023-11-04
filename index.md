@@ -62,6 +62,13 @@ public void testReverseInPlacePoorly() {
 <p>The initial code for <code>reverseInPlace</code> overwrote the first half of the array without storing its information, causing the inital values in the first half of the array to disappear. This resulted in a palindromic array. The code for the method actually stores the information into a temporary array, and then changes the values, accordingly, so that the initial values are not immediately overwritten.</p>
      
 <h4 style="font:Tahoma;"> Part 2 </h4>
+<p>For this part, we will be focusing on the terminal command <code>less</code>. Note that for the following four command-line options, I found them through the URL: "<a href="https://phoenixnap.com/kb/less-command-in-linux">https://phoenixnap.com/kb/less-command-in-linux</a>."</p>
+<ol>
+  <li>-o[file_name]</li>
+  <li>-p[pattern]</li>
+  <li>-z[number]</li>
+  <li>-N</li>
+</ol>
 </div>
  
  
