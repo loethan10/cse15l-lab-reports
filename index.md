@@ -1,4 +1,4 @@
- <div style="background-color:#5eb561" padding-top = "10 px" width = "1300">
+ <div style="background-color:#5eb561; margin = 10">
   
 <h3 style="font:Arial Black;"> Lab Report 3 </h3>
 <p style="font:Tahoma;"> November 2, 2023</p>
