@@ -1,11 +1,11 @@
- <div style="background-color:#5eb561" width = "1300">
+ <div style="background-color:#5eb561, padding-top: 10 px;"" width = "1300">
   
 <h3 style="font:Arial Black;"> Lab Report 3 </h3>
 <p style="font:Tahoma;"> November 2, 2023</p>
 
 <h4 style="font:Tahoma;"> Part 1 </h4>
 <p style="font-size: 12 px">Fixing the bugs within the code for a list implementation: </p>
-<p style="font-size: 12 px">For this portion, we will be looking at the list's method <code>reverseInPlace </code></p>
+<p style="font-size: 12 px">For this portion, we will be looking at the list's method <code>reverseInPlace</code></p>
 <pre><code>static void reverseInPlace(int[] arr) {
   for(int i = 0; i < arr.length; i += 1) {
     arr[i] = arr[arr.length - i - 1];
