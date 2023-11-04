@@ -1,4 +1,4 @@
- <div style="background-color:#5eb561; margin = 10">
+ <div style="background-color:#8bf76a;">
   
 <h3 style="font:Arial Black;"> Lab Report 3 </h3>
 <p style="font:Tahoma;"> November 2, 2023</p>
@@ -32,8 +32,8 @@ public void testReverseInPlacePoorly() {
 }</code></pre>
 <ul style="font:Tahoma;">
    <li>Test results:</li>
-   <img src="Screen Shot 2023-11-03 at 11.19.01 PM.png">
 </ul>
+   <img src="Screen Shot 2023-11-03 at 11.19.01 PM.png">
     <table>
   <tr>
     <td>
