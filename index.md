@@ -6,23 +6,25 @@
 <h4 style="font:Tahoma;"> Part 1 </h4>
 <p style="font-size: 12 px">Fixing the bugs within the code for a list implementation: </p>
 <p style="font-size: 12 px">For this portion, we will be looking at the list's method <code>reverseInPlace</code></p>
-<pre><code>static void reverseInPlace(int[] arr) {
+<pre style = "background-color: #96948f"><code>static void reverseInPlace(int[] arr) {
   for(int i = 0; i < arr.length; i += 1) {
     arr[i] = arr[arr.length - i - 1];
   }
 } </code></pre>
    
 <ul style="font:Tahoma;">
-   <li>Failure-inducing input for the buggy program:
-   <pre><code>@Test 
+   <li>Failure-inducing input for the buggy program:</li>
+</ul>
+   <pre style = "background-color: #96948f"><code>@Test 
 public void testReverseInPlaceAccurately() {
    int[] input1 = {3, 4, 5, 6, 7};
    ArrayExamples.reverseInPlace(input1);
    assertArrayEquals(new int[]{7, 6, 5, 4, 3}, input1);
 }</code></pre>
-   </li>
-   <li>Input that doesn’t induce a failure:
-   <pre><code>@Test 
+ <ul style="font:Tahoma;">
+   <li>Input that doesn’t induce a failure:</li>
+ </ul>
+   <pre style = "background-color: #96948f"><code>@Test 
 public void testReverseInPlacePoorly() {
    int[] input1 = {3};
    ArrayExamples.reverseInPlace(input1);
@@ -35,13 +37,13 @@ public void testReverseInPlacePoorly() {
     <table>
   <tr>
     <td>
-     <pre><code>static void reverseInPlace(int[] arr) {
+     <pre style = "background-color: #96948f"><code>static void reverseInPlace(int[] arr) {
   for(int i = 0; i < arr.length; i += 1) {
     arr[i] = arr[arr.length - i - 1];
   }
 }</code></pre></td>
     <td>
-     <pre><code>static void reverseInPlace(int[] arr) {
+     <pre style = "background-color: #96948f"><code>static void reverseInPlace(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
