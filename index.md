@@ -8,10 +8,10 @@
   <li><h4 style="font:Tahoma;">Log into ieng6</h4>
     <table>
   <tr>
-   <td> <p style="font:Tahoma;">Keys pressed: <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code></p> 
+   <td> <p style="font:Tahoma;">Keys pressed: <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code><br><code>&lt;enter&gt;</code></p> 
         <p><i>The <code>ssh</code> command allows the use<br> 
-          to establish a connection from their personal <br>
-          computer to a network. In this case,<br>
+          to establish a connection from their personal 
+          computer to a network. In this case,
           the command established a connection to the <br>
           <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code> server.</i></p>
    </td>
@@ -23,14 +23,16 @@
   <li><h4 style="font:Tahoma;">Clone your fork of the repository from your Github account (using the <code>SSH</code> URL)</h4>
     <table>
   <tr>
-   <td> <p style="font:Tahoma;">Keys pressed: <code>git clone git@github.com:loethan10/lab7-1.git</code></p> 
-        <p><i>The <code>git clone</code> command does what it<br>
+   <td> <p style="font:Tahoma;">Keys pressed: <code>git clone git@github.com:loethan10/lab7-1.git</code><br>
+     <code>&lt;enter&gt;</code></p> 
+       <p><i>The <code>git clone</code> command does what it<br>
           implies- it clones a copy of the git provided. <br>
-          In this case, the command cloned what was at <br>
+          In this case, the command cloned what was at 
           the <code>git@github.com:loethan10/lab7-1.git</code> URL. <br>
           Note that the aforementioned directory cloned<br>
-          was provided by using an SSH code that was established <br>
-          during lab.</i></p>
+          was provided by using an SSH code that was established 
+          during lab. Then, <code>cd lab 7-1</code> changes the 
+        working directory to the required directory.</i></p>
    </td>
     <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
   </tr>
@@ -40,26 +42,71 @@
 <li>Run the tests, demonstrating that they fail</li>
     <table>
   <tr>
-   <td> <p style="font:Tahoma;">Keys pressed: <code>git clone git@github.com:loethan10/lab7-1.git<enter><br></code>cd lab7-1</p> 
-        <p><i>The <code>git clone</code> command does what it<br>
-          implies- it clones a copy of the git provided. <br>
-          In this case, the command cloned what was at <br>
-          the <code>git@github.com:loethan10/lab7-1.git</code> URL. <br>
-          Note that the aforementioned directory cloned<br>
-          was provided by using an SSH code that was established <br>
-          during lab. Then, <code>cd lab 7-1</code> changes the <br>
-        working directory to the required directory.</i></p>
+   <td> <p style="font:Tahoma;">Keys pressed: <code>javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java </code><br><code>&lt;enter&gt;</code> <br>
+     <code>java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java</code><br>
+     <code>&lt;enter&gt;</code></p> 
+        <p><i>The first command line above compiles all<br>
+          the <code>.java</code> files within the current <br>
+          working directory, as well as the JUnit library required
+          to run the JUnit tests. Then, the second line runs the JUnit class alongside the <code>ListExamplesTests.java</code> <br>
+          class. The <code>javac</code> and <code>java</code> <br>
+          commands compile and run java files, respectively.</i></p>
+   </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+  </tr>
+    </table>
+  </li>
+
+<li>Edit the code file <code>ListExamples.java</code> to fix the failing test (as a reminder, the error in the code is just that <code>index1</code> is used instead of <code>index2</code> in the final loop in <code>merge</code>)</li>
+    <table>
+  <tr>
+   <td> <p style="font:Tahoma;">Keys pressed: <code>vim ListExamples.java </code><br><code>&lt;enter&gt;</code> <br>
+     <code>43j11&lt;right&gt;a&lt;delete&gt;2&lt;esc&gt;:wq&lt;enter&gt;</code></p> 
+        <p><i>The <code>vim</code> command takes a file as an<br>
+          input, then opens it. In this case, it opens the <code>ListeExamples.java</code> file.<br>
+          Then, <code>43j11&lt;right&gt;</code> are all directional codes<br>
+          that allow the user to move around. <br>
+          <code>43j</code> specifically moves the user's cursor down <br>
+          43 lines, while <code>11&lt;right&gt;</code> <br>
+          moves the cursor 11 spaces right. <code>a&lt;delete&gt;2&lt;esc&gt;</code><br>
+          makes vim enter insert mode, then it deletes the current character and inserts the character 2.<br>
+          It then escapes insert mode. Finally, <code>:wq&lt;enter&gt;</code> makes the terminal
+          exit and save the changes from vim. </i></p>
+   </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+  </tr>
+    </table>
+  </li>
+     
+  <li>Run the tests, demonstrating that they now succeed</li>
+    <table>
+  <tr>
+   <td> <p style="font:Tahoma;">Keys pressed: <code>&lt;up&gt;&lt;up&gt;&lt;up&gt;&lt;enter&gt;</code><br>
+   <code>&lt;up&gt;&lt;up&gt;&lt;up&gt;&lt;enter&gt;</code></p> 
+        <p><i>The line codes above simply retrieve the previous commands<br>
+          and runs them. Since we did <code>&lt;up&gt;</code> three times, <br>
+        it returns the command ran three commands ago. As explained above, <br>
+        the <code>javac</code> and <code>java</code> <br>
+          commands compile and run java files, respectively.</i></p>
+   </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+  </tr>
+    </table>
+  </li>
+
+  <li>Commit and push the resulting change to your Github account</li>
+    <table>
+  <tr>
+   <td> <p style="font:Tahoma;"><i>Using your mouse, enter GitHub Desktop. In the<br>
+   summary box in the bottom-left side of the screen, type a quick summary. Then,
+     click "Commit to main." The changes should be pushed. Note, to the right, that the
+     file <code>ListExamples.java</code> says that it was updated "Now."</i></p>
    </td>
     <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
   </tr>
     </table>
   </li>
   
-  </li>
-  <li>Run the tests, demonstrating that they fail</li>
-  <li>Edit the code file <code>ListExamples.java</code> to fix the failing test (as a reminder, the error in the code is just that <code>index1</code> is used instead of <code>index2</code> in the final loop in <code>merge</code>)</li>
-  <li>Run the tests, demonstrating that they now succeed</li>
-  <li>Commit and push the resulting change to your Github account</li>
  </ol>
  </div>
  
