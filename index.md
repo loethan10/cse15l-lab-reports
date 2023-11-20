@@ -39,7 +39,7 @@
     </table>
   </li>
 
-<li>Run the tests, demonstrating that they fail</li>
+<li>Run the tests, demonstrating that they fail
     <table>
   <tr>
    <td> <p style="font:Tahoma;">Keys pressed: <code>javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java </code><br><code>&lt;enter&gt;</code> <br>
@@ -57,7 +57,7 @@
     </table>
   </li>
 
-<li>Edit the code file <code>ListExamples.java</code> to fix the failing test (as a reminder, the error in the code is just that <code>index1</code> is used instead of <code>index2</code> in the final loop in <code>merge</code>)</li>
+<li>Edit the code file <code>ListExamples.java</code> to fix the failing test (as a reminder, the error in the code is just that <code>index1</code> is used instead of <code>index2</code> in the final loop in <code>merge</code>)
     <table>
   <tr>
    <td> <p style="font:Tahoma;">Keys pressed: <code>vim ListExamples.java </code><br><code>&lt;enter&gt;</code> <br>
@@ -78,7 +78,7 @@
     </table>
   </li>
      
-  <li>Run the tests, demonstrating that they now succeed</li>
+  <li>Run the tests, demonstrating that they now succeed
     <table>
   <tr>
    <td> <p style="font:Tahoma;">Keys pressed: <code>&lt;up&gt;&lt;up&gt;&lt;up&gt;&lt;enter&gt;</code><br>
@@ -94,7 +94,7 @@
     </table>
   </li>
 
-  <li>Commit and push the resulting change to your Github account</li>
+  <li>Commit and push the resulting change to your Github account
     <table>
   <tr>
    <td> <p style="font:Tahoma;"><i>Using your mouse, enter GitHub Desktop. In the<br>
