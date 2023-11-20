@@ -5,10 +5,18 @@
 
 <h4 style="font:Tahoma;"> Vim Steps From Lab</h4>
  <ol>
-  <li><h5 style="font:Tahoma;">Log into ieng6</h5>
-    <p style="font:Tahoma;">Type: <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code></p>
+  <li><h4 style="font:Tahoma;">Log into ieng6</h4>
+    <table>
+  <tr>
+   <td> <p style="font:Tahoma;">Type: <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code></p> </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+  </tr>
+    </table>
   </li>
-  <li>Clone your fork of the repository from your Github account (using the <code>SSH</code> URL)</li>
+   
+  <li><h4 style="font:Tahoma;">Clone your fork of the repository from your Github account (using the <code>SSH</code> URL)</h4>
+  
+  </li>
   <li>Run the tests, demonstrating that they fail</li>
   <li>Edit the code file <code>ListExamples.java</code> to fix the failing test (as a reminder, the error in the code is just that <code>index1</code> is used instead of <code>index2</code> in the final loop in <code>merge</code>)</li>
   <li>Run the tests, demonstrating that they now succeed</li>
