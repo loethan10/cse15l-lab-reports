@@ -9,14 +9,30 @@
     <table>
   <tr>
    <td> <p style="font:Tahoma;">Keys pressed: <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code></p> 
-        <p><i>The <code>ssh</code> command allows the user to establish a connection from their personal computer to a network. In this case, the command established a connection to the <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code> server.</i></p>
+        <p><i>The <code>ssh</code> command allows the user to establish
+          a connection from their personal computer to a network. In this case,
+          the command established a connection to the 
+          <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code> server.</i></p>
    </td>
     <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
   </tr>
     </table>
   </li>
-   
+
   <li><h4 style="font:Tahoma;">Clone your fork of the repository from your Github account (using the <code>SSH</code> URL)</h4>
+    <table>
+  <tr>
+   <td> <p style="font:Tahoma;">Keys pressed: <code>git clone git@github.com:loethan10/lab7-1.git</code></p> 
+        <p><i>The <code>git clone</code> command does what it implies- it clones a 
+          copy of the git provided. In this case, the command cloned what was at 
+          the <code>git@github.com:loethan10/lab7-1.git</code> URL. Note that 
+          the aforementioned directory cloned was provided by using an SSH 
+          code that was established during lab.</i></p>
+   </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+  </tr>
+    </table>
+  </li>
   
   </li>
   <li>Run the tests, demonstrating that they fail</li>
