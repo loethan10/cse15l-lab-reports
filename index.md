@@ -1,3 +1,31 @@
+<div style="background-color:#d1aef2;">
+  
+<h3 style="font:Arial Black;"> Lab Report 4 </h3>
+<p style="font:Tahoma;"> November 18, 2023</p>
+
+<h4 style="font:Tahoma;"> Vim </h4>
+ <ol>
+  <li>Log into ieng6</li>
+  <li>Clone your fork of the repository from your Github account (using the SSH URL)</li>
+  <li>Run the tests, demonstrating that they fail</li>
+  <li>Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)</li>
+  <li>Run the tests, demonstrating that they now succeed</li>
+  <li>Commit and push the resulting change to your Github account</li>
+ </ol>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  <div style="background-color:#8bf76a;">
   
 <h3 style="font:Arial Black;"> Lab Report 3 </h3>
