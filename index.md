@@ -9,10 +9,10 @@
     <table>
   <tr>
    <td> <p style="font:Tahoma;">Keys pressed: <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code></p> 
-        <p><i>The <code>ssh</code> command allows the user 
-          to establish a connection from their personal 
-          computer to a network. In this case,
-          the command established a connection to the 
+        <p><i>The <code>ssh</code> command allows the use<br> 
+          to establish a connection from their personal <br>
+          computer to a network. In this case,<br>
+          the command established a connection to the <br>
           <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code> server.</i></p>
    </td>
     <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
@@ -24,12 +24,12 @@
     <table>
   <tr>
    <td> <p style="font:Tahoma;">Keys pressed: <code>git clone git@github.com:loethan10/lab7-1.git</code></p> 
-        <p><i>The <code>git clone</code> command does what it
-          implies- it clones a copy of the git provided. 
-          In this case, the command cloned what was at 
-          the <code>git@github.com:loethan10/lab7-1.git</code> URL. 
-          Note that the aforementioned directory cloned
-          was provided by using an SSH code that was established 
+        <p><i>The <code>git clone</code> command does what it<br>
+          implies- it clones a copy of the git provided. <br>
+          In this case, the command cloned what was at <br>
+          the <code>git@github.com:loethan10/lab7-1.git</code> URL. <br>
+          Note that the aforementioned directory cloned<br>
+          was provided by using an SSH code that was established <br>
           during lab.</i></p>
    </td>
     <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
