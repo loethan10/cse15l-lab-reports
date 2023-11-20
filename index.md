@@ -36,6 +36,24 @@
   </tr>
     </table>
   </li>
+
+<li>Run the tests, demonstrating that they fail</li>
+    <table>
+  <tr>
+   <td> <p style="font:Tahoma;">Keys pressed: <code>git clone git@github.com:loethan10/lab7-1.git<enter><br></code>cd lab7-1</p> 
+        <p><i>The <code>git clone</code> command does what it<br>
+          implies- it clones a copy of the git provided. <br>
+          In this case, the command cloned what was at <br>
+          the <code>git@github.com:loethan10/lab7-1.git</code> URL. <br>
+          Note that the aforementioned directory cloned<br>
+          was provided by using an SSH code that was established <br>
+          during lab. Then, <code>cd lab 7-1</code> changes the <br>
+        working directory to the required directory.</i></p>
+   </td>
+    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+  </tr>
+    </table>
+  </li>
   
   </li>
   <li>Run the tests, demonstrating that they fail</li>
