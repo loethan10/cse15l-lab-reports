@@ -15,7 +15,7 @@
           the command established a connection to the <br>
           <code>ssh cs15lfa23zz@ieng6.ucsd.edu</code> server.</i></p>
    </td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 8.17.26 PM.png"> </td>
   </tr>
     </table>
   </li>
@@ -34,7 +34,7 @@
           during lab. Then, <code>cd lab 7-1</code> changes the 
         working directory to the required directory.</i></p>
    </td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 8.35.16 PM.png"> </td>
   </tr>
     </table>
   </li>
@@ -52,7 +52,7 @@
           class. The <code>javac</code> and <code>java</code> <br>
           commands compile and run java files, respectively.</i></p>
    </td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 8.57.30 PM.png"> </td>
   </tr>
     </table>
   </li>
@@ -73,7 +73,7 @@
           It then escapes insert mode. Finally, <code>:wq&lt;enter&gt;</code> makes the terminal
           exit and save the changes from vim. </i></p>
    </td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 9.29.22 PM.png"> </td>
   </tr>
     </table>
   </li>
@@ -89,7 +89,7 @@
         the <code>javac</code> and <code>java</code> <br>
           commands compile and run java files, respectively.</i></p>
    </td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 9.43.29 PM.png"> </td>
   </tr>
     </table>
   </li>
@@ -102,7 +102,7 @@
      click "Commit to main." The changes should be pushed. Note, to the right, that the
      file <code>ListExamples.java</code> says that it was updated "Now."</i></p>
    </td>
-    <td> <img src="Screen Shot 2023-10-20 at 4.13.39 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 9.47.44 PM.png"> </td>
   </tr>
     </table>
   </li>
