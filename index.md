@@ -100,7 +100,7 @@
    <td> <p style="font:Tahoma;"><i>Using your mouse, enter GitHub Desktop. In the<br>
    summary box in the bottom-left side of the screen, type a quick summary. Then,
      click "Commit to main." The changes should be pushed. Note, to the right, that the
-     file <code>ListExamples.java</code> says that it was updated "Now."</i></p>
+     file <code>ListExamples.java</code> says that it was updated "now."</i></p>
    </td>
     <td> <img src="Screen Shot 2023-11-19 at 9.47.44 PM.png"> </td>
   </tr>
