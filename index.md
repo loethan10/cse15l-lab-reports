@@ -176,12 +176,12 @@ Note that I had ran the code <code>cd lab7</code> to enter the current working d
   <li>Commit and push the resulting change to your Github account
     <table>
   <tr>
-   <td> <p style="font:Tahoma;"><i>Using your mouse, enter GitHub Desktop. In the<br>
-   summary box in the bottom-left side of the screen, type a quick summary. Then,
-     click "Commit to main." The changes should be pushed. Note, to the right, that the
-     file <code>ListExamples.java</code> says that it was updated "now."</i></p>
+   <td> <p style="font:Tahoma;">Keys pressed: <code>git add <code>ListExamples.java </code>&lt;enter&gt;</code><br>
+   <code>git commit -m "fixed stuff"&lt;enter&gt;</code><br>
+   <code>git push&lt;enter&gt;</code><br></p> 
+        <p><i>The line codes essentially commit then push the changes to your Github account (as the command names imply). The <code>commit</code> code allows you to add a commit message, which is what "fixed stuff" is.</i></p>
    </td>
-    <td> <img src="Screen Shot 2023-11-19 at 9.47.44 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 9.43.29 PM.png"> </td>
   </tr>
     </table>
   </li>
