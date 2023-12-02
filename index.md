@@ -11,7 +11,7 @@
 <p style="color: red"> George Clooney</p>
 <p> Try looking for an error spefically in the following method: </p>
   
-<code>@Test
+<pre><code>@Test
   public void testReverseInPlaceAgain() {
     int[] input1 = {3, 4, 5, 6, 7};
     ArrayExamples.reverseInPlace(input1);
@@ -22,7 +22,7 @@
     int[] input1 = {1, 2, 3, 4};
     assertArrayEquals(new int[]{0, 0, 0, 0}, ArrayExamples.reversed(input1));
   }
-</code>
+</code></pre>
 <p style="color: red"> Benjamin Nhan</p>
 <p> Thanks! It ended up working, thank you!</p>
 <img src="Screen Shot 2023-12-01 at 4.40.02 PM.png">
