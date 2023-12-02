@@ -68,6 +68,8 @@ Note that I had ran the code <code>cd lab7</code> to enter the current working d
 </p>
 
 <h4 style="font:Tahoma;"> Part 2</h4>
+<p>I had no idea what vim was, much less what text editing from a command line was; in fact, I didn't know most of the commands (nor how the terminal itself worked) until this class. I found it incredibly interesting that you could make changes on your files straight from a terminal window, and it became even more fascinating when I discovered what we could do with a terminal window. </p>
+
 </div>
 
 
