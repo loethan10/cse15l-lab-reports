@@ -11,17 +11,17 @@
 <p style="color: red"> George Clooney</p>
 <p> Try looking for an error spefically in the following method: 
   
-<code>@Test
-  public void testReverseInPlaceAgain() {
-    int[] input1 = {3, 4, 5, 6, 7};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{7, 6, 5, 6, 7}, input1);
-  }
-  @Test
-  public void testReversedAgain() {
-    int[] input1 = {1, 2, 3, 4};
-    assertArrayEquals(new int[]{0, 0, 0, 0}, ArrayExamples.reversed(input1));
-  }
+<code>@Test<br>
+  public void testReverseInPlaceAgain() {<br>
+    int[] input1 = {3, 4, 5, 6, 7};<br>
+    ArrayExamples.reverseInPlace(input1);<br>
+    assertArrayEquals(new int[]{7, 6, 5, 6, 7}, input1);<br>
+  }<br>
+  @Test<br>
+  public void testReversedAgain() {<br>
+    int[] input1 = {1, 2, 3, 4};<br>
+    assertArrayEquals(new int[]{0, 0, 0, 0}, ArrayExamples.reversed(input1));<br>
+  }<br>
 </code>
 </p>
 <p style="color: red"> Benjamin Nhan</p>
