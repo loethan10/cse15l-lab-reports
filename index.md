@@ -1,3 +1,79 @@
+<div style="background-color:#f7adad;">
+  
+<h3 style="font:Arial Black;"> Lab Report 5 </h3>
+<p style="font:Tahoma;"> December 1, 2023</p>
+<h4 style="font:Tahoma;"> Part 1</h4>
+<p><b> Lab 7: ListExamples.java error message</h5></b>
+<p style="color: red"> Benjamin Nhan</p>
+<p> I can't get the ListExamplesTests.java to produce an okay test, no matter what I do. I edited ListExmaples.java for bugs, but it seems that they still won't fix.</p>
+
+<p style="color: red"> George Clooney</p>
+<p> Try looking for an error spefically in the following method: 
+  
+<code>@Test
+  public void testReverseInPlaceAgain() {
+    int[] input1 = {3, 4, 5, 6, 7};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{7, 6, 5, 6, 7}, input1);
+  }
+  @Test
+  public void testReversedAgain() {
+    int[] input1 = {1, 2, 3, 4};
+    assertArrayEquals(new int[]{0, 0, 0, 0}, ArrayExamples.reversed(input1));
+  }
+</code>
+</p>
+<p style="color: red"> Benjamin Nhan</p>
+<p> Thanks! It ended up working.</p>
+
+<p style="color: red"> Sarah Lynn</p>
+<p> Soooo... I had the exact same problem, and I still CANNOT get it to work. Can you run me down, step by step, on how you did it? Like, the directories you used, what commands you ran, and/or what files I have to fix?</p>
+
+<p style="color: red"> Benjamin Nhan</p>
+<p> Sure.
+<li>The file & directory structure needed:x
+
+  <code>lib
+~  /hamcrest-core-1.3.jar
+~  /junit-4.13.2.jar
+.gitignore
+ListExamples.java
+ListExamplesTests.java
+test.sh
+</code> 
+
+Note that I had ran the code <code>cd lab7</code> to enter the current working directory.</li>
+<li>Before and after fixing the bug, <code>ListExamples.java</code> looked like:</li>
+    <table>
+  <tr>
+   <td> <img src="Screen Shot 2023-11-19 at 8.35.16 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-11-19 at 8.35.16 PM.png"> </td>
+  </tr>
+      <tr>
+   <td> Before </td>
+    <td> After </td>
+  </tr>
+    </table>
+
+<li>The commands I ran were:<br>
+1) <code>cd lab7</code><br>
+2) <code>bash test.sh</code><br>
+3) <code>vim ListExamples.java</code>, and once in the editor, fixed the code<br>
+4) <code>bash test.sh</code><br>
+</li>
+<li>Simply edit the methods <code>reverseInPlace</code> and <code>reverse</code> to look like what I had screenshotted above. By editing it to the above code, it sorts the array in reverse, properly.</li>
+
+</p>
+
+<h4 style="font:Tahoma;"> Part 2</h4>
+</div>
+
+
+
+
+
+
+
 <div style="background-color:#d1aef2;">
   
 <h3 style="font:Arial Black;"> Lab Report 4 </h3>
