@@ -1,11 +1,12 @@
-<div style="background-color:#f7adad;">
+<div style="background-color:#eaf786;">
   
 <h3 style="font:Arial Black;"> Lab Report 5 </h3>
 <p style="font:Tahoma;"> December 1, 2023</p>
 <h4 style="font:Tahoma;"> Part 1</h4>
-<p><b> Lab 7: ListExamples.java error message</h5></b>
+<p><b> Lab 7: ListExamples.java error message</b></p>
 <p style="color: red"> Benjamin Nhan</p>
 <p> I can't get the ListExamplesTests.java to produce an okay test, no matter what I do. I edited ListExmaples.java for bugs, but it seems that they still won't fix.</p>
+<img src ="Screen Shot 2023-12-01 at 4.39.42 PM.png">
 
 <p style="color: red"> George Clooney</p>
 <p> Try looking for an error spefically in the following method: 
@@ -24,7 +25,8 @@
 </code>
 </p>
 <p style="color: red"> Benjamin Nhan</p>
-<p> Thanks! It ended up working.</p>
+<p> Thanks! It ended up working, thank you!</p>
+<img src="Screen Shot 2023-12-01 at 4.40.02 PM.png">
 
 <p style="color: red"> Sarah Lynn</p>
 <p> Soooo... I had the exact same problem, and I still CANNOT get it to work. Can you run me down, step by step, on how you did it? Like, the directories you used, what commands you ran, and/or what files I have to fix?</p>
@@ -46,8 +48,8 @@ Note that I had ran the code <code>cd lab7</code> to enter the current working d
 <li>Before and after fixing the bug, <code>ListExamples.java</code> looked like:</li>
     <table>
   <tr>
-   <td> <img src="Screen Shot 2023-11-19 at 8.35.16 PM.png"> </td>
-    <td> <img src="Screen Shot 2023-11-19 at 8.35.16 PM.png"> </td>
+   <td> <img src="Screen Shot 2023-12-01 at 4.30.49 PM.png"> </td>
+    <td> <img src="Screen Shot 2023-12-01 at 4.31.16 PM.png"> </td>
   </tr>
       <tr>
    <td> Before </td>
