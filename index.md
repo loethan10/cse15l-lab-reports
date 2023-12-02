@@ -9,7 +9,7 @@
 <img src ="Screen Shot 2023-12-01 at 4.39.42 PM.png">
 
 <p style="color: red"> George Clooney</p>
-<p> Try looking for an error spefically in the following method: 
+<p> Try looking for an error spefically in the following method: </p>
   
 <code>@Test<br>
   public void testReverseInPlaceAgain() {<br>
@@ -23,7 +23,6 @@
     assertArrayEquals(new int[]{0, 0, 0, 0}, ArrayExamples.reversed(input1));<br>
   }<br>
 </code>
-</p>
 <p style="color: red"> Benjamin Nhan</p>
 <p> Thanks! It ended up working, thank you!</p>
 <img src="Screen Shot 2023-12-01 at 4.40.02 PM.png">
